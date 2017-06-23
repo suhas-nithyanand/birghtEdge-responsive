@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="starter-template.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-fixed-top" style="background-color: #1589FF;">
+      <div class="container">
+        <div class="navbar-header"> 
+          <a class="navbar-brand" style="color: white; font-weight:bold; font-size: 25px; font-style: bold;" href="#">BRIGHTEDGE</a>
+        </div>
+      </div>
+    </nav>
+
+     <div class="container border"  style=" border-right: 2px solid; border-left:2px solid; border-color:  #1589FF;">
+
+      <div class="starter-template">
+	
+	<div class="col-lg-2">
+	</div>
+	<div class="col-lg-8">
+	<img class="img-responsive" src="Asset1.png">
+	</div>
+	<div class="col-lg-2">
+	</div>
+        
+      </div>
+
+    </div><!-- /.container -->
+
+    <div class="container border"  style="border-right: 2px solid; border-left: 2px solid; border-color: #1589FF;">
+	<div class="col-lg-8 col-lg-up col-sm-12 hidden-sm-down"  style="border-right: 2px solid; border-color: #A0A0A0;">
+	
+	<h1> Top 20 BrightEdge SEO Innovations</h1>
+        <p>At BightEdge our top value is customer service, and we have developed tremendoud innovationsto help you stay ahead of the changes in search nd content marketing. As a SaaS company, our 		software is delivered as a subscription and each month we bring you innovative new technologies at no additional cost. </p>	
+	<p>Please checkout our latest infographic that highlights the Top 20 BrightEdge innovations from the past 12 months -- all of these great features are available in your account today! [Download 		a copy in PDF] </p>
+	<img class="img-responsive" src="Asset4_mod.png">
+	</div>
+	
+	<div class="col-lg-4 ui-content">
+	<a type="button" class="btn btn-lg tbutton" data-toggle="modal" data-target="#myModal" data-rel="popup"> <img src="demo.png"> </a>
+	 <img src="Asset3.png"> 																									
+	</div>
+	</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title"> Company Information</h4>
+      </div>
+
+ <div class="modal-body">
+<form onSubmit="ValidationEvent()">
+    <div class="form-group">
+   <label> First Name: <label>
+    <input class="form-control" type="text" placeholder="Suhas" id="fname"> 
+    </div>
+    <div class="form-group">
+     <label> Last Name: <label>
+    <input class="form-control" type="text" placeholder="Nithyanandappa" id="lname"> 
+    </div>
+     <div class="form-group">
+     <label> Email: <label>
+    <input class="form-control" type="text" placeholder="abc@gmail.com" id="email">
+     </div>
+     <div class="form-group">
+     <label> Address: <label>
+    <input class="form-control" type="text" placeholder="323 White Ash Trail, Orlando, FL 32826" id="address">
+     </div>
+    <div class="form-group">
+     <label> Phone: <label>
+    <input class="form-control" type="text" placeholder="3233282628" id="phone">
+     </div>
+      <div class="form-group">
+    <label> Annual Revenue: <label>
+    <input class="form-control" type="text" placeholder="100000$" id="revenue">
+     </div>
+   <div class="form-group">
+      <label style ="margin-top:20px;"> Additional Notes: <label>
+    <textarea id="notes" rows="10" placeholder="Please add additional details here if required."></textarea>
+     </div>
+<div class="modal-footer">
+<input type="submit" class="btn btn-default" value = "Save">
+</div>
+
+ </form>
+</div>
+</div>
+</div>	
+</div>
+
+
+<script>
+
+function ValidationEvent() {
+console.log('The following values were submitted in the form:');
+console.log('-----------------------------------------------');
+var fname = document.getElementById("fname").value;
+var email = document.getElementById("email").value;
+var lname = document.getElementById("lname").value;
+var address = document.getElementById("address").value;
+var phone = document.getElementById("phone").value;
+var revenue = document.getElementById("revenue").value;
+var notes = document.getElementById("notes").value;
+console.log('First Name:',fname);
+console.log('Email:',email);
+console.log('Last Name:',lname);
+console.log('Address:',address);
+console.log('Phone:',phone);
+console.log('Revenue:',revenue);
+console.log('Notes:',notes);
+console.log('-----------------------------------------------');
+}
+</script>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+  </body>
+</html>

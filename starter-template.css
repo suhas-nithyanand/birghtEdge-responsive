@@ -1,0 +1,28 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+.tbutton {
+    background-color: yellow;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.border{
+    background-color:orange;
+}
+
+.margint25{
+    margin-top:25px;
+}
+
+.margin-t10{
+    margin-top:10px;
+}
